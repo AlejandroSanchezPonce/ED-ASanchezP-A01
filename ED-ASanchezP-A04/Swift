@@ -1,0 +1,89 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+import Foundation
+class FetchClass{
+var V:[Int]=[]
+func Fetch(B : Int)->Int{
+	preconditionFailure("Fail")
+}
+	func SetV (v: Int){ 
+		self.V = v
+	}
+	func SetV (n:Int)-> [Int]{
+		var v [Int] = [Int]()
+		for _in 0 ... (n-1){
+			v.append(random() %100)
+		}
+	}return v
+	
+	func getV(){
+		 return self.V
+	}
+	func showV(){
+		let N:Int = self.V 
+		for(index) in 0 ... N{
+            string+=String(self.V[index])
+        }print(string)
+		
+	}
+	func showF(N: Int){
+		if(N==(-1)){
+			print("no se encuentra")
+		}else{
+			print ("posicion \ (n)")
+		}
+	}
+}
+
+protocol Sorting{
+        func sort()
+    }
+class Binario : FetchClass {
+	
+	func sort() {
+    var a = 0
+    var t = 0
+    for i in 0...vector.count-1{
+        a=i
+        for iB in stride(from: ix+1, to: vector.count-1, by: 1){
+            if(vector[iB]<vector[i]){
+                a=iB
+            }
+        }
+    t = v[i]
+    v[i] = v[m]
+    v[a] = t
+        }
+    }
+	
+	
+	override func Fetch (B: Int)-> Int {
+		var menor : Int = 0
+		var mayor : Int = self.V.count-1
+		var centro : Int = (inicio + fin)/2
+		
+	}while(menor < mayor){
+		var NumC : Int = self.vector[centro]
+		return centro
+	}else{
+		if (item < valorCentro){
+			menor = centro
+			centro = (menor + mayor)/2
+		}else{
+			mayor = centro
+			centro = (menor + fin)/2
+		}
+		
+	}return -1
+}
+class Secuencial : FetchClass{
+	override func Fetch (B : Int) -> Int{
+		let N:Int = self.vector.count-1
+		for i in 0 ... N{
+			if(self.V[i] == B){
+				return i
+			}
+		}return -1
+	}
+}
