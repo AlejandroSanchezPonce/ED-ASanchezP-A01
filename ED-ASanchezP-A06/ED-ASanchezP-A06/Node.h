@@ -1,13 +1,13 @@
 #pragma once
 class Node {
 public:
-	int data;
-	Node* next;
+	int D;
+	Node* N;
 
 	Node();
-	Node(int data, Node* next);
+	Node(int D, Node* N);
 	int getData();
-	void setData(int data);
+	void setData(int D);
 	Node* getNext();
-	void setNext(Node* next);
+	void setNext(Node* N);
 };

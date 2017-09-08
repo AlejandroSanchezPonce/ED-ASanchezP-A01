@@ -3,25 +3,22 @@
 using namespace std;
 
 Node::Node() {
-	data = 0;
-	next = NULL;
+	D = 0;
+	N = NULL;
 }
-Node::Node(int data, Node* next) {
-	data = data;
-	next = next;
+Node::Node(int D, Node* N) {
+	D = D;
+	N = N;
 }
-
 int Node::getData() {
-	return data;
+	return D;
 }
 Node* Node::getNext() {
-	return next;
+	return N;
 }
-
-void Node::setData(int data) {
-	data = data;
+void Node::setData(int D) {
+	D = D;
 }
-
-void Node::setNext(Node* next) {
-	next = next;
+void Node::setNext(Node* N) {
+	N = N;
 }
