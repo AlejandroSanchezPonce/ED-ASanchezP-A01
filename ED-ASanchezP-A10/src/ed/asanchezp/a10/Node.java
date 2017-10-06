@@ -17,4 +17,7 @@ public class Node <T>{
         this.data = p;
         this.next = null;
     }
+     public void printS(){
+        System.out.println(data);
+    }
 }
