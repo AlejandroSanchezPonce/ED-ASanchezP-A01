@@ -10,7 +10,7 @@ public class Hacker : MonoBehaviour {
     string[] passwordLevel1 = { "book", "class", "teacher", "room", "hour" };
     string[] passwordLevel2 = { "cashier", "department", "payment", "electronics" };
     string[] passwordLevel3 = { "dossier", "ineternational", "security", };
-    string[] codes1 = { "book","class","teacher","room","hour" };
+    string[] codes1 = { "red","green","blue"," };
 
     //here i declare an enumerated type to represente the different game 
     //states, and I declare a variable to hold the corrent game state
